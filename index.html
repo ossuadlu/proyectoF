@@ -3,7 +3,7 @@
 		<title>DEMOTIFY</title>
 		<link rel="stylesheet" href="style.css" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
-		
+	</head>	
 	<body ng-controller="AppController">
 		<div class="fullview playerview" ng-show="showplayer">
 			<div ng-controller="PlayerController">
@@ -24,7 +24,7 @@
 						<div class="list scrollable">
 							<b><a href="#/">MAIN</a></b>
 							<ul class="menuitems">
-								<li><a href="#/" ng-class="getClass('/')">Browse</a></li>
+								<li><a href="#/" ng-class="getClass('/')">BROWSE</a></li>
 							</ul>
 							<b><a href="#/me">YOUR MUSIC</a></b>
 							<ul class="menuitems">
@@ -130,6 +130,6 @@
 		<script src="controllers/searchresults.js"></script>
 		<script src="controllers/browse.js"></script>
 		<script src="controllers/browsecategory.js"></script>
-	</head>
+	
 	</body>
 </html>
