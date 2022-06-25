@@ -82,8 +82,8 @@ hr {
 	top: 0px;
 	height: 40px;
 	width: 100%;
-	background-image: url("images/fondo.jpg");
-	border-bottom: 1px solid #4d6fc7;
+	background-image: url("images/gif1.gif");
+	border-bottom: 1px solid #d81616;
 	box-sizing: border-box;
 	overflow: hidden;
 }
@@ -101,7 +101,7 @@ hr {
 	border: 0;
 	padding: 5px 10px;
 	border-radius: 20px;
-	background-color: rgb(48, 24, 87);
+	background-color: rgb(182, 7, 7);
 	width: 100%;
 	outline: none;
 	
@@ -142,7 +142,7 @@ hr {
 	height: 40px;
 	bottom: 0px;
 	background-image: url ("images/gif2.gif");
-	border-top: 1px solid #393b40;
+	border-top: 1px solid #f00808;
 	overflow: hidden;
 }
 
@@ -236,7 +236,7 @@ hr {
 	left: 0px;
 	top: 0px;
 	width: 220px;
-	background-image: url("images/gif2.gif");
+	background-image: url("images/gif5.gif");
 	bottom: 0px;
 }
 
@@ -256,7 +256,7 @@ hr {
 	left: 0px;
 	bottom: 0px;
 	height: 260px;
-	background-image: url("images/gif2.gif");
+	background-image: url("images/gif5.gif");
 }
 
 .menuview .preview > p {
@@ -279,7 +279,7 @@ hr {
 	height: 220px;
 	border: 0;
 	outline: 0;
-	border: 1px solid #393b40;
+	border: 1px solid #070606;
 }
 
 .mainview {
@@ -343,15 +343,15 @@ a.button {
 }
 
 a.button.green {
-	background-color: #070;
+	background-color: rgb(216, 6, 6);
 	color: #fff;
-	border: 1px solid #070;
+	border: 1px solid rgb(231, 6, 6);
 }
 
 a.button.big.green {
 	display: inline-block;
 	text-align: center;
-	background-color: #070;
+	background-color: rgb(241, 48, 34);
 	color: #fff;
 	padding: 10px 40px;
 	border-radius: 50px;
@@ -359,7 +359,7 @@ a.button.big.green {
 
 a.button.button-add {
 	color: #fff;
-	border: 1px solid #070;
+	border: 1px solid rgb(235, 22, 22);
 }
 
 .pop-meter {
@@ -392,11 +392,11 @@ a.button.button-add {
 }
 
 .pop-meter-background:after {
-	box-shadow: 4px 0 0 0 #121286,8px 0 0 0 #3e3e40,12px 0 0 0 #3e3e40,16px 0 0 0 #3e3e40,20px 0 0 0 #3e3e40,24px 0 0 0 #3e3e40,28px 0 0 0 #3e3e40,32px 0 0 0 #3e3e40
+	box-shadow: 4px 0 0 0 #e60c0c,8px 0 0 0 #3e3e40,12px 0 0 0 #3e3e40,16px 0 0 0 #3e3e40,20px 0 0 0 #3e3e40,24px 0 0 0 #3e3e40,28px 0 0 0 #3e3e40,32px 0 0 0 #3e3e40
 }
 
 .pop-meter-overlay:after {
-	box-shadow: 4px 0 0 0 #232b42,8px 0 0 0 #88898c,12px 0 0 0 #88898c,16px 0 0 0 #88898c,20px 0 0 0 #88898c,24px 0 0 0 #88898c,28px 0 0 0 #88898c,32px 0 0 0 #88898c;
+	box-shadow: 4px 0 0 0 #b4190e,8px 0 0 0 #88898c,12px 0 0 0 #88898c,16px 0 0 0 #88898c,20px 0 0 0 #88898c,24px 0 0 0 #88898c,28px 0 0 0 #88898c,32px 0 0 0 #88898c;
 }
 
 .searchresult-image {
@@ -484,22 +484,22 @@ table tr {
 }
 
 table tr:hover {
-	background-color: #9c1c6b;
+	background-color: #e70f0f;
 }
 
 table tr.playing {
-	background-color: #c27eb1;
+	background-color: #da4242;
 }
 
 table tr td {
 	font-size: 9pt;
-	border-top: 1px solid #393b40;
+	border-top: 1px solid #e61b1b;
 	padding: 4px 10px 4px 0;
 }
 
 table tr td i {
 	font-style: normal;
-	color: rgb(226, 95, 220);
+	color: rgb(179, 42, 7);
 }
 
 table.tracks tr td i > a {
@@ -514,7 +514,7 @@ table tr th {
 	text-align: left;
 	font-weight: 300;
 	font-size: 9pt;
-	color: #fff;
+	color: rgb(179, 28, 28);
 	padding: 4px 10px 4px 0;
 }
 
@@ -531,7 +531,7 @@ ul.albums li, ul.playlists li, ul.genres li {
 	width: 160px;
 	height: 220px;
 	margin: 0 10px 10px 0;
-	background-color: #393b40;
+	background-color: #991c13;
 }
 
 ul.albums li responsive-cover,  ul.playlists li responsive-cover, ul.genres li img {
@@ -570,8 +570,8 @@ responsive-cover.responsive-cover-playlist {
 	min-width: 160px;
 	max-width: 460px;
 	color: #c8c8c8;
-	background-color: #333;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+	background-color: rgb(235, 26, 26);
+	box-shadow: 0 0 10px rgba(83, 7, 7, 0.8);
 }
 
 .context-menu .item {
@@ -595,7 +595,7 @@ responsive-cover.responsive-cover-playlist {
 	display: block;
 	margin: 4px 0;
 	height: 1px;
-	background-color: #444;
+	background-color: rgb(241, 229, 229);
 }
 
 ::-webkit-scrollbar-track {
@@ -603,7 +603,7 @@ responsive-cover.responsive-cover-playlist {
 }
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #0707e9;
+  background-color: #ebecf0;
 }
 ::-webkit-scrollbar:horizontal {
   height: 10px;
@@ -611,10 +611,10 @@ responsive-cover.responsive-cover-playlist {
 ::-webkit-scrollbar-thumb {
   border: 1px solid #1c1c1f;
   border-radius: 10px;
-  background-color: #37063d;
+  background-color: #ee1010;
 }
 ::-webkit-scrollbar-corner {
-  background-color: #1a3306;
+  background-color: #fa2b10;
 }
 
 
